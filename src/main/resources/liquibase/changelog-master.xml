@@ -6,10 +6,10 @@
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
 
     <!-- Version 1.0 -->
-    <include file="src/main/resources/liquibase/1-0/001-create-Article-table.xml" />
-    <include file="src/main/resources/liquibase/1-0/003-add-visible-to-Article.xml" />
+    <include file="src/main/resources/liquibase/1.0/001-create-Article-table.xml" />
+    <include file="src/main/resources/liquibase/1.0/003-add-visible-to-Article.xml" />
     
     <!-- Version 1.1 -->
-    <include file="src/main/resources/liquibase/1-1/015-add-ready-to-Article.xml" />
+    <include file="src/main/resources/liquibase/1.1/015-add-ready-to-Article.xml" />
     
 </databaseChangeLog>
